@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    color: black;
+    
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    height: 7vh;
+    max-width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    
+}
+
+nav{
+    flex: 2;
+    
+    width: 100%;
+    
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+    transition: 1s ease;
+}
+nav ul li a:hover, .active{
+    color: tomato;
+    font-size: 20px;
+
+}
+
+
+ input{
+    height: 3vh;
+    border-radius: 4px;
+    transition: 0.6s ease;
+}
+ input:hover{
+    border: 2px solid tomato ;
+}
+
+.main{
+    width: 100%;
+    background-color:  #2F2F31 ;
+    height: 40vh;
+}
+.main-text{
+    position: relative;
+   top: 30%;
+   text-align: center;
+   
+   animation: title 2s ;
+
+}
+.main-text h1{
+    transition: 1s ease;
+}
+.main-text h1:hover{
+    text-shadow: 2px 2px 4px lightskyblue;
+    
+}
+.container{
+    
+    border-radius: 6px;
+    max-width: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: lightseagreen;
+    justify-content: space-around;
+    animation: for-image 2s ;
+
+}
+.genre{
+    margin: 2%;
+    text-align: center;
+}
+.gal{
+    
+    
+    height: fit-content;
+    transition: 1s ease;
+    border-radius: 4px;
+    margin: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    background-color: yellowgreen;
+    margin-top: 1%;
+    
+}
+.overlay{
+    background-color: #2F2F31;
+    position: absolute;
+    width: 256px;
+    height: 200px;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.overlaytext{
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    color: lightseagreen;
+    top: 50%;
+
+}
+.overlay:hover{
+    opacity: 1;
+    animation: for-overlay 0.5s;
+
+}
+
+.gal p{
+    text-align: center;
+    color: lightseagreen;
+    border-radius: 4px;
+}
+.gal:hover{
+    
+    cursor: pointer;
+}
+.image img{
+    height: 200px;
+    width: 256px;
+    border-radius: 4px;
+    
+
+
+
+}
+.image{
+    border-radius: 4px;
+}
+
+ p{
+    background-color: #2F2F31;
+}
